@@ -180,15 +180,49 @@ Students with zero coding background learn:
 - try/except (light intro)
 
 #### Interactive exercises:
-- Print Hello World Function
+- Exercise 1
+  ```
+  try:
+    age = int(input("Enter your age: "))
+    print("Next year you will be", age + 1)
+  except ValueError:
+    print("Please enter a valid number!")
+  ```
+- Exercise 2
+  ```
+  try:
+    number = int(input("Enter a number: "))
+    result = 10 / number
+    print("Result:", result)
+  except ZeroDivisionError:
+    print("You cannot divide by zero!")
+  except ValueError:
+    print("Please enter a valid number!")
+  ```
 
 ### File I/O
 - Reading from a text file
 - Writing to a file
 
 #### Interactive exercises:
-- Print Hello World Function
+- Exercise 1
+  ```
+  message = input("Write a short note: ")
+
+  # Save it to a file
+  with open("note.txt", "w") as file:
+      file.write(message)
   
+  print("Your note has been saved!")
+  ```
+- Exercise 2
+  ```
+  with open("note.txt", "r") as file:
+      content = file.read()
+  
+  print("Here is what you saved:")
+  print(content)
+  ```
 ---
 
 End of README
