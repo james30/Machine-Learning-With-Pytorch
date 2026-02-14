@@ -13,17 +13,17 @@ The goal is to transition from **math foundations → real AI implementation usi
 
 # 📅 Class Overview
 
-| Topic | Focus | Focus |
-|-------|-------|-------|
-| 1 | What Programming Actually Is | What is a program?  Why and How? Basic Syntax & Running Code |
-| 1 | Python Programming Basics | Learn coding fundamentals + Colab + GitHub |
-| 2 | Variables & Data Types | Variables, Integers, Floats, Strings, Booleans, Type conversion (int(), str()) |
-| 3 | Input & Output | Supervised learning & regression |
-| 4 | Conditionals & Loops | Computer vision & deeper models |
-| 5 | Data Structures | Optimization, regularization, GPU, and future directions |
-| 3 | Functions | Supervised learning & regression |
-| 4 | Basic Error Handling | Computer vision & deeper models |
-| 5 |File I/O | Optimization, regularization, GPU, and future directions |
+| Topic | Focus | 
+|-------|-------|
+| 1 | What Programming Actually Is |
+| 1 | Python Programming Basics |
+| 2 | Variables & Data Types |  
+| 3 | Input & Output |  
+| 4 | Conditionals & Loops | 
+| 5 | Data Structures |  
+| 3 | Functions | 
+| 4 | Basic Error Handling |  
+| 5 |File I/O | 
 
 ---
 
@@ -38,10 +38,12 @@ Students with zero coding background learn:
 ## ⏱ Topics
 
 ### What Programming Actually Is
+- What is a program?  Why and How? Basic Syntax & Running Code
 - Code = instructions for math
 - AI models are just programmable math functions
 
 ### Python Programming Basics
+- Learn coding fundamentals + Colab + GitHub
 - Coding fundamentals
 - Colab + GitHub
 
