@@ -45,6 +45,12 @@ Students with zero coding background learn:
 - Coding fundamentals
 - Colab + GitHub
 
+#### Interactive exercises:
+- Exercise 1
+  ```
+  print("Hello, Python!")
+  ```
+
 ### Variables & Data Types
 - Variables
 - Integers
@@ -54,8 +60,13 @@ Students with zero coding background learn:
 - Type conversion (int(), str())
 
 #### Interactive exercises:
-- Calculate age next year
-- Convert temperature 
+- Exercise 1
+    ```
+  length = 5
+  width = 3
+  area = length * width
+  print("The area is:", area)
+  ```
 
 ### Input & Output
 - input()
@@ -63,8 +74,18 @@ Students with zero coding background learn:
 - Basic string formatting (f-strings)
 
 #### Interactive exercises:
-- Print Hello World Function 
-
+- Exercise 1
+  ```
+  age = 16
+  print("Next year you will be", age + 1)
+  ```
+- Exercise 2
+  ```
+  length = 5
+  width = 3
+  area = length * width
+  print("The area is:", area)
+  ```
 ### Conditionals & Loops
 - if
 - elif
