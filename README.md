@@ -67,6 +67,13 @@ Students with zero coding background learn:
   area = length * width
   print("The area is:", area)
   ```
+- Exercise 2
+  ```
+  length = 5
+  width = 3
+  area = length * width
+  print("The area is:", area)
+  ```
 
 ### Input & Output
 - input()
@@ -76,16 +83,15 @@ Students with zero coding background learn:
 #### Interactive exercises:
 - Exercise 1
   ```
-  age = 16
-  print("Next year you will be", age + 1)
+  name = input("What is your name? ")
+  print("Hello", name)
   ```
 - Exercise 2
   ```
-  length = 5
-  width = 3
-  area = length * width
-  print("The area is:", area)
+  age = int(input("How old are you? "))
+  print("In five years you will be", age + 5)
   ```
+
 ### Conditionals & Loops
 - if
 - elif
@@ -98,7 +104,32 @@ Students with zero coding background learn:
 - Loop control (break, continue)
 
 #### Interactive exercises:
-- Print Hello World Function
+- Exercise 1
+  ```
+  number = int(input("Enter a number: "))
+  if number > 0:
+    print("Positive")
+  else:
+    print("Not positive")
+  ```
+- Exercise 2
+  ```
+  score = int(input("Enter your score: "))
+  if score >= 90:
+    print("A")
+  else:
+    print("Not A")
+  ```
+- Exercise 3
+  ```
+  for i in range(5):
+    print(i)
+  ```
+- Exercise 4
+  ```
+  for i in range(1, 6):
+    print("Number:", i)
+  ```
 
 ### Data Structures
 - Lists
@@ -108,7 +139,17 @@ Students with zero coding background learn:
 - Dictionaries (key-value concept)
 
 #### Interactive exercises:
-- Print Hello World Function
+- Exercise 1
+  ```
+  fruits = ["apple", "banana", "orange"]
+  print(fruits[0])
+  ```
+- Exercise 2
+  ```
+  numbers = [1, 2, 3]
+  numbers.append(4)
+  print(numbers)
+  ```
 
 ### Functions
 - Defining functions
@@ -117,7 +158,21 @@ Students with zero coding background learn:
 - Scope (basic understanding)
 
 #### Interactive exercises:
-- Print Hello World Function
+- Exercise 1
+  ```
+  def greet(name):
+    print("Hello", name)
+
+  greet("Alex")
+  ```
+- Exercise 2
+  ```
+  def add(a, b):
+    return a + b
+
+  result = add(3, 4)
+  print(result)
+  ```
 
 ### Basic Error Handling
 - Common errors (SyntaxError, TypeError)
