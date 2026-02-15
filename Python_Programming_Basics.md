@@ -16,7 +16,7 @@ The goal is to transition from **math foundations → real AI implementation usi
 | Topic | Focus | 
 |-------|-------|
 | 1 | What Programming Actually Is |
-| 1 | Python Programming Basics |
+| 1 | Python Programming With Colab and Github |
 | 2 | Variables & Data Types |  
 | 3 | Input & Output |  
 | 4 | Conditionals & Loops | 
@@ -42,7 +42,7 @@ Students with zero coding background learn:
 - Code = instructions for math
 - AI models are just programmable math functions
 
-### Python Programming Basics
+### Python Programming With Colab and Github
 - Learn coding fundamentals + Colab + GitHub
 - Coding fundamentals
 - Colab + GitHub
