@@ -15,7 +15,7 @@ The goal is to transition from **math foundations → real AI implementation usi
 
 | Topic | Focus | 
 |-------|-------|
-| 1 | What Programming Actually Is |
+| 1 | Programming Basic |
 | 1 | Python Programming With Colab and Github |
 | 2 | Variables & Data Types |  
 | 3 | Input & Output |  
