@@ -64,10 +64,8 @@ Students with zero coding background learn:
 #### Interactive exercises:
 - Exercise 1
     ```
-  length = 5
-  width = 3
-  area = length * width
-  print("The area is:", area)
+  age = 20
+  print("My age:", area)
   ```
 - Exercise 2
   ```
