@@ -78,7 +78,7 @@ Students with zero coding background learn:
   ```
 
 ### Input & Output
-- input()
+- Input()
 - Converting input types
 - Basic string formatting (f-strings)
 
