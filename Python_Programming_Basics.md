@@ -64,8 +64,8 @@ Students with zero coding background learn:
 #### Interactive exercises:
 - Exercise 1
     ```
-  age = 20
-  print("My age:", area)
+  price = 2.5
+  print("A dozen of eggs cost $:", area)
   ```
 - Exercise 2
   ```
