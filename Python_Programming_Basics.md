@@ -65,7 +65,7 @@ Students with zero coding background learn:
 - Exercise 1
     ```
   price = 2.5
-  print("A dozen of eggs cost $:", area)
+  print("A dozen of eggs cost $", price)
   ```
 - Exercise 2
   ```
