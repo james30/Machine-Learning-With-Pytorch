@@ -39,7 +39,7 @@ Students with zero coding background learn:
 
 ## ⏱ Topics
 
-### What Programming Actually Is
+### Programming Basic
 - What is a program? 
 - Code = instructions for math
 - AI models are just programmable math functions
