@@ -93,16 +93,12 @@ Students with zero coding background learn:
   print("In five years you will be", age + 5)
   ```
 
-### Conditionals & Loops
+### Conditionals 
 - if
 - elif
 - else
 - Comparison operators
 - Logical operators (and, or, not)
-- for loops
-- while loops
-- range()
-- Loop control (break, continue)
 
 #### Interactive exercises:
 - Exercise 1
