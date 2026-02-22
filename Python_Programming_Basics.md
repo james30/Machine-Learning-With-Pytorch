@@ -16,14 +16,15 @@ The goal is to transition from **math foundations → real AI implementation usi
 | Topic | Focus | 
 |-------|-------|
 | 1 | Programming Basic |
-| 1 | Python Programming With Colab and Github |
-| 2 | Variables & Data Types |  
-| 3 | Input & Output |  
-| 4 | Conditionals & Loops | 
-| 5 | Data Structures |  
-| 3 | Functions | 
-| 4 | Basic Error Handling |  
-| 5 |File I/O | 
+| 2 | Python Programming With Colab and Github |
+| 3 | Variables & Data Types |  
+| 4 | Input & Output |  
+| 5 | Conditionals | 
+| 6 | Loops
+| 7 | Data Structures |  
+| 8 | Functions | 
+| 9 | Basic Error Handling |  
+| 10 |File I/O | 
 
 ---
 
@@ -38,7 +39,7 @@ Students with zero coding background learn:
 ## ⏱ Topics
 
 ### What Programming Actually Is
-- What is a program?  Why and How? Basic Syntax & Running Code
+- What is a program? 
 - Code = instructions for math
 - AI models are just programmable math functions
 
@@ -120,12 +121,20 @@ Students with zero coding background learn:
   else:
     print("Not A")
   ```
-- Exercise 3
+
+### Loops
+- for loops
+- while loops
+- range()
+- Loop control (break, continue)
+
+#### Interactive exercises:
+- Exercise 1
   ```
   for i in range(5):
     print(i)
   ```
-- Exercise 4
+- Exercise 2
   ```
   for i in range(1, 6):
     print("Number:", i)
