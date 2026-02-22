@@ -24,7 +24,8 @@ The goal is to transition from **math foundations → real AI implementation usi
 | 7 | Data Structures |  
 | 8 | Functions | 
 | 9 | Basic Error Handling |  
-| 10 |File I/O | 
+| 10 | File I/O |
+| 11 | Simple Student Gradebook |
 
 ---
 
@@ -227,6 +228,100 @@ Students with zero coding background learn:
   
   print("Here is what you saved:")
   print(content)
+  ```
+---
+### Simple Student Gradebook
+Write a Python program that:
+
+- Collects student names and grades
+- Stores them in a structured way
+- Displays all students
+- Calculates basic statistics (average, highest, lowest)
+
+#### Instructions
+##### Step 1 — Collect Student Data
+- Ask for the student’s name (string)
+- Ask for the student’s grade (float)
+- Store the data in a list of dictionaries like this:
+- {"name": "Alice", "grade": 91}
+##### Step 2 — Display All Students
+
+Write a function:
+
+def display_students(students):
+
+This function should print all student names and grades.
+
+##### Step 3 — Compute Statistics
+
+Write three functions:
+
+- def calculate_average(students):
+- def find_highest(students):
+- def find_lowest(students):
+
+They should:
+- Return the average grade
+- Return the student with the highest grade
+
+Return the student with the lowest grade
+
+#### Interactive exercises:
+- Exercise 1
+  ```
+  def display_students(students):
+    print("\nStudent List:")
+    for student in students:
+        print(f"{student['name']}: {student['grade']}")
+
+
+  def calculate_average(students):
+      total = 0
+      for student in students:
+          total += student["grade"]
+      return total / len(students)
+  
+  
+  def find_highest(students):
+      highest = students[0]
+      for student in students:
+          if student["grade"] > highest["grade"]:
+              highest = student
+      return highest
+  
+  
+  def find_lowest(students):
+      lowest = students[0]
+      for student in students:
+          if student["grade"] < lowest["grade"]:
+              lowest = student
+      return lowest
+  
+  
+  # Main Program
+  students = []
+  
+  num_students = int(input("How many students? "))
+  
+  for i in range(num_students):
+      name = input(f"Enter name of student #{i+1}: ")
+      grade = float(input(f"Enter grade for {name}: "))
+      
+      students.append({
+          "name": name,
+          "grade": grade
+      })
+  
+  display_students(students)
+  
+  average = calculate_average(students)
+  highest = find_highest(students)
+  lowest = find_lowest(students)
+  
+  print("\nStatistics:")
+  print(f"Average grade: {average:.2f}")
+  print(f"Highest grade: {highest['name']} ({highest['grade']})")
+  print(f"Lowest grade: {lowest['name']} ({lowest['grade']})")
   ```
 ---
 
