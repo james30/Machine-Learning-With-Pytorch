@@ -179,30 +179,20 @@ Official Website: https://www.tensorflow.org
 
 ------------------------------------------------------------------------
 
-## Framework Timeline
-
-  Framework    Release Year
-  ------------ --------------
-  Torch        2002
-  TensorFlow   2015
-  PyTorch      2016
-
-------------------------------------------------------------------------
-
 ## Comparison Table
 
-  Feature                 PyTorch           TensorFlow
-  ----------------------- ----------------- -------------------------------
-  Creator                 Meta (Facebook)   Google
-  Release Year            2016              2015
-  Execution Style         Imperative        Static Graph (early versions)
-  Computation Graph       Dynamic           Static (originally)
-  Debugging               Easy              More complex
-  Python Integration      Excellent         Moderate
-  CUDA GPU Support        Yes               Yes
-  Visualization           Limited           TensorBoard
-  Research Popularity     Very High         Medium
-  Production Deployment   Growing           Strong
+ |  Feature             |   PyTorch       |   TensorFlow | 
+ | :--- | :--- | :--- |
+ | Creator               |   Meta (Facebook) |   Google | 
+ |  Release Year         |    2016           |    2015 | 
+ | Execution Style       |  Imperative       |  Static Graph (early versions) | 
+ | Computation Graph     |   Dynamic         |   Static (originally) | 
+ | Debugging             |   Easy            |   More complex | 
+ | Python Integration    |   Excellent       |  Moderate | 
+ | CUDA GPU Support      |   Yes             |  Yes | 
+ | Visualization         |   Limited         |  TensorBoard | 
+ | Research Popularity   |   Very High       |  Medium | 
+ | Production Deployment |   Growing         |  Strong | 
 
 ------------------------------------------------------------------------
 
@@ -229,16 +219,6 @@ Write Python code and execute immediately.
 ------------------------------------------------------------------------
 
 # 🚀 Next Step: Google Colab
-
-In upcoming labs, we will learn:
-
--   Tensor operations
--   GPU usage
--   Autograd
--   Neural networks
--   Training models
-
-Google Colab: https://colab.research.google.com
 
 ------------------------------------------------------------------------
 
