@@ -99,6 +99,6 @@ Create a tensor:
 
 Tasks:
 
-1️⃣ Multiply the tensor by 2
-2️⃣ Compute the row sum
-3️⃣ Reshape it into ``` 3 x 2 ```
+- Multiply the tensor by 2
+- Compute the row sum
+- Reshape it into ``` 3 x 2 ```
