@@ -42,12 +42,12 @@ Try two methods:
 torch.matmul()
 @
 ```
-##  Tensor Shape
-Every tensor has a shape.
+##  Tensor Shape, Size
+Every tensor has a shape and Size.
 
 ### Exercise 3
 
-Check the shape of tensor ```A```.
+Check the shape and size of tensor ```A```.
 
 ##  Reshaping Tensors
 We can reshape tensors using view().
