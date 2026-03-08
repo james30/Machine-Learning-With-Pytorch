@@ -1,11 +1,11 @@
-# Tensor Operations Lab
+# Tensor Operations
 Learn how to manipulate tensors using common PyTorch operations. By the end of this lab you should understand:
 
-- element-wise operations
-- matrix multiplication
-- reshaping tensors
-- broadcasting
-- reduction operations
+- Element-wise Operations
+- Matrix Multiplication
+- Reduction operations
+- Broadcasting
+- Shaping & Manipulation
 
 ##  Element-wise Operations
 Create two tensors:
@@ -42,26 +42,10 @@ Try two methods:
 torch.matmul()
 @
 ```
-##  Tensor Shape, Size
-Every tensor has a shape and Size.
-
-### Exercise 3
-
-Check the shape and size of tensor ```A```.
-
-##  Reshaping Tensors
-We can reshape tensors using view().
-
-### Exercise 4
-
-Create a tensor: ```[1,2,3,4,5,6]```.
-
-Reshape it into a ```2 x 3``` tensor.
-
 ##  Reduction Operations
 These operations summarize values.
 
-### Exercise 5
+### Exercise 3
 
 Given: ```t = [1,2,3,4,5]```.
 
@@ -73,10 +57,11 @@ Find:
 - max
 - min
 ```  
+
 ##  Broadcasting
 Broadcasting allows tensors of different shapes to operate together.
 
-### Exercise 6
+### Exercise 4
 Example:
 ```
 [1,2,3]
@@ -84,6 +69,27 @@ Example:
 10
 ```
 Create tensor:```[1,2,3]```and add 10.
+
+##  Tensor Shape, Size
+Every tensor has a shape and Size.
+
+### Exercise 5
+
+Check the shape and size of tensor ```A```.
+
+##  Tensors Shaping & Manipulation
+
+We can reshape tensors using view().
+
+### Exercise 6
+
+Create a tensor: ```x = [1,2,3,4,5,6]```.
+
+- Reshape it into a ```2 x 3``` tensor.
+- Transposes x
+- Unsqueeze() and Squeeze()
+- Cat() and Stack()
+- Permute()
 
 ##  Challenge Exercise
 
