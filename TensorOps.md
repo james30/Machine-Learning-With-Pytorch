@@ -71,6 +71,7 @@ Find:
 - sum
 - mean
 - max
+- min
 ```  
 ##  Broadcasting
 Broadcasting allows tensors of different shapes to operate together.
