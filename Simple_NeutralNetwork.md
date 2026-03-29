@@ -7,7 +7,7 @@
 
 - Set up the coding environment
 - Define a neural network model
-- Data
+- Prepare the data
 - Train the model
 - Evaluate results and fine-tune the model
 - Visualize the results
