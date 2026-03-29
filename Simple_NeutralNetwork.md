@@ -1,6 +1,9 @@
 # Lab — Create a Neural Network to Classify Iris Species
 
-What You Will Learn
+![Iris Flower](https://www.playwithml.com/static/projects/iris-flower/image/iris_flower.jpg)
+
+
+## What You Will Learn
 
 - Set up the coding environment
 - Define a neural network model
