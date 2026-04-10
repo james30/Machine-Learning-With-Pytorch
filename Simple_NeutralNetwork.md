@@ -8,6 +8,7 @@
 - Set up the coding environment
 - Define a neural network model
 - Prepare the data
+  - The importance of data preparation
 - Train the model
 - Evaluate results and fine-tune the model
 - Visualize the results
