@@ -12,6 +12,9 @@
   - Why Preparation is Essential
   - Critical Data Preparation Steps 
 - Train the model
+  - Train our model!
+  - Graph it out!
+  - Evaluate Model on Test Data Set 
 - Evaluate results and fine-tune the model
 - Visualize the results
 
